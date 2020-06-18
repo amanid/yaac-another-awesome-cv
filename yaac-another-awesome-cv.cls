@@ -24,7 +24,7 @@
 \DeclareOption{10pt}{\def\@@ptsize{10pt}}
 \DeclareOption{11pt}{\def\@@ptsize{11pt}}
 \DeclareOption{12pt}{\def\@@ptsize{12pt}}
-
+\DeclareOption{13pt}{\def\@@ptsize{13pt}}
 \ProcessOptions\relax
 
 \LoadClass[a4paper,\@@ptsize]{article}
